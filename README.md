@@ -23,3 +23,7 @@ heroku container:release web -a your-app-name
 
 Connect your chisel client:
 chisel client --auth user:pass https://your-app-name.herokuapp.com socks
+
+Use extention for browsers SwitchyOmega to connect 127.0.0.1:1080
+
+Enjoy!!!
