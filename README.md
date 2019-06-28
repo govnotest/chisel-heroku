@@ -1,9 +1,11 @@
 chisel-heroku
 =============
 
-Deploy [chisel](https://github.com/jpillora/chisel) to [Heroku](https://www.heroku.com/) as a [SOCKS5](https://en.wikipedia.org/wiki/SOCKS) proxy.
-
 ### Getting started
+
+git clone https://github.com/govnotest/chisel-heroku.git
+
+cd chisel-heroku/
 
 heroku container:login
 
