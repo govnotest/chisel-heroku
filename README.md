@@ -3,6 +3,11 @@ chisel-heroku
 
 ### Getting started
 
+create app in heroku dashboard
+
+
+on PC:
+
 git clone https://github.com/govnotest/chisel-heroku.git
 
 cd chisel-heroku/
