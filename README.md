@@ -12,6 +12,8 @@ git clone https://github.com/govnotest/chisel-heroku.git
 
 cd chisel-heroku/
 
+heroku login
+
 heroku container:login
 
 heroku config:set CHISEL_AUTH=user:pass -a your-app-name
