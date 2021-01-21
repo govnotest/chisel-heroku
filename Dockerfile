@@ -1,5 +1,5 @@
 FROM heroku/heroku:20
-RUN curl -sSL https://github.com/jpillora/chisel/releases/download/v1.7.3/chisel_1.7.3_linux_amd64.gz | zcat > /bin/chisel
+RUN curl -sSL https://github.com/jpillora/chisel/releases/download/v1.7.4/chisel_1.7.4_linux_amd64.gz | zcat > /bin/chisel
 RUN chmod +x /bin/chisel
 RUN useradd -m heroku
 USER heroku
